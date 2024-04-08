@@ -217,9 +217,9 @@
 </template>
 
 <script>
-import HeaderPage from "./HeaderPage.vue";
+import HeaderPage from "../components/HeaderPage.vue";
 
-import FooterPage from "./FooterPage.vue";
+import FooterPage from "../components/FooterPage.vue";
 
 export default {
   name: "PageHome",
@@ -234,19 +234,19 @@ export default {
           tag: "Kitchan Design",
           title: "t’s Get Solution For Building Construction Work",
           date: "26 December,2022",
-          image: "../assets/img/cart1.png",
+          image: require("../assets/img/cart1.png"),
         },
         {
           tag: "Living Design",
           title: "Low Cost Latest Invented Interior Designing Ideas.",
           date: "22 December,2022",
-          image: "../assets/img/cart2.png",
+          image: require("../assets/img/cart2.png"),
         },
         {
           tag: "Interior Design",
           title: "Best For Any Office & Business Interior Solution",
           date: "25 December,2022",
-          image: "../assets/img/cart3.png",
+          image: require("../assets/img/cart3.png"),
         },
       ],
     };

@@ -59,9 +59,9 @@
 </template>
 
 <script>
-import HeaderPage from "./HeaderPage.vue";
-import FooterPage from "./FooterPage.vue";
-import PaginationPage from "./PaginationPage.vue";
+import HeaderPage from "../components/HeaderPage.vue";
+import FooterPage from "../components/FooterPage.vue";
+import PaginationPage from "../components/PaginationPage.vue";
 
 export default {
   name: "Hw7Page4Project",
@@ -180,7 +180,8 @@ export default {
   justify-content: center;
 
   align-items: center;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 .categoreis__but:last-child {
   border-right: rgb(205, 162, 116) 1px solid;

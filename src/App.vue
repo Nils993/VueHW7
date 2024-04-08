@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <Page5Details />
+    <!-- <Page5Details /> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Page5Details from "./components/Page5Details.vue";
+// import Page5Details from "./components/Page5Details.vue";
 
 export default {
   name: "App",
   components: {
-    Page5Details,
+    // Page5Details,
   },
 };
 </script>

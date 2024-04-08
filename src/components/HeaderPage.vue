@@ -4,13 +4,15 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-list__item">
-          <a href="#">Home</a>
+          <router-link class="nav-list__item" to="/home"> Home </router-link>
         </li>
         <li class="nav-list__item">
-          <a href="#">Project</a>
+          <router-link class="header__link" to="/project">
+            Project
+          </router-link>
         </li>
         <li class="nav-list__item">
-          <a href="#">Blog</a>
+          <router-link class="header__link" to="/blog"> Blog </router-link>
         </li>
       </ul>
     </nav>

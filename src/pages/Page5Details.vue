@@ -46,8 +46,8 @@
 </template>
 
 <script>
-import HeaderPage from "./HeaderPage.vue";
-import FooterPage from "./FooterPage.vue";
+import HeaderPage from "../components/HeaderPage.vue";
+import FooterPage from "../components/FooterPage.vue";
 import { mapState } from "vuex";
 export default {
   name: "Hw7Page5Details",
