@@ -32,7 +32,6 @@ export default new Router({
     {
       path: "/project/-1",
       component: Page5Details,
-      props: true,
     },
 
     {
